@@ -1,0 +1,24 @@
+h1,h2,h3,h4,h5{font-family: "Chalkboard";}
+h1,h2 {color: #034b0f;
+    text-align: center;}
+p{font-family: "Cambay Devanagari";}
+
+img {border-radius: 20px;}
+/* border: solid 1px black */
+body{background: rgb(222,247,18);
+    background: radial-gradient(circle, rgba(222,247,18,1) 0%, rgba(48,152,227,1) 26%, rgba(253,158,45,1) 82%, rgba(30,199,67,1) 98%);
+    background-attachment: fixed;/*con fixed lo sfondo rimane fermo*/}
+
+h1,h2{background: white;
+    border: solid 4px black;
+    padding: 20px;}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border: solid 6px darkred;
+    /*border-style: dashed;*/
+    background: #ff9a8e;
+    /*background-image: url(foto);*/
+    border-radius:10px; /*se metto 50% ho un cerchio*/
+}

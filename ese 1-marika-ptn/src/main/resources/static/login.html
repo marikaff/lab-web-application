@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <script language="javascript" src="js/validaUtente.js"></script>
+    <meta charset="UTF-8">
+    <title>LOGIN PTN</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+<header>
+  <h2>PINGUINI TOSSICI NUCLEARI</h2>
+  <br>
+  <h4>Iscriviti per non perdere notizie del tuo gruppo preferito!</h4>
+    <img src="foto/ptn3.png" height="120" width="230"/></header>
+    <br>
+<a href="home.html">ritorna alla home</a>
+    <br>
+<br>
+
+<h3> Se sei già iscritto clicca qui sotto ⬇️</h3>
+<!--onsubmit="validate1(event);" se non lo richiamo nel file js-->
+<form id="formSubmit" method="POST" action="SERVER">
+    <div>
+        Username: <input type="text" id="user" name="user"/>
+    </div>
+    <div>
+        Password: <input type="password" name="password"/>
+    </div>
+    <div>
+        <input type="submit"/>
+    </div>
+</form>
+<br>
+<h3>altrimenti... iscriviti!</h3>
+<main>
+    <form action="/submitQuestion.jsp">
+        <h4>come ti chiami?</h4>
+        <label for="nome">Il tuo nome:</label>
+        <input type="text" id="nome" name="cognome"><br>
+        <label for="cognome">Il tuo cognome:</label>
+        <input type="text" id="cognome" name="cognome"><br><br>
+
+        <label for="email">La tua email:</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="password">Scegli una password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="comple">Quando sei nato:</label>
+        <input type="date" id="comple" name="comple">
+
+        <br><br>
+
+        <h4>Lavori, studi o non fai nulla?</h4>
+<!-- per far si che posso sceglierne solo uno il name deve essere lo stesso per tutti -->
+        <input type="radio" id="student" name="radio_option" value="student">
+        <label for="student">Studio</label><br>
+        <input type="radio" id="job" name="radio_option" value="job">
+        <label for="job">Lavoro</label><br>
+        <input type="radio" id="nulla" name="radio_option" value="nulla">
+        <label for="nulla">Nulla (sei il migliore)</label><br><br><br>
+
+        <label for="file">Inserisci il tuo documento:</label><br>
+        <input type="file" id="file" name="file"><br>
+
+        <h4>Se hai delle domande scrivi qui ↓</h4>
+        <textarea name="domande"></textarea>
+
+        <br><br>
+        <input type="submit" value="invia">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </form>
+
+
+
+
+
+</main>
+
+
+</body>
+</html>
