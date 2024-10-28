@@ -1,0 +1,27 @@
+h1,h2,h3,h4,h5{font-family: "Chalkboard";}
+h1,h2 {color: #034b0f;
+    text-align: center;}
+p{font-family: "Cambay Devanagari";}
+
+img {border-radius: 20px;}
+/* border: solid 1px black */
+body {
+    background-color: rgba(26, 221, 159, 0.43);
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+h1,h2{
+    border: solid 4px black;
+    padding: 20px;}
+
+h3:hover{color:green;}
+
+.box{
+    width: 20px;
+    height: 20px;
+    border: solid 6px darkred;
+    /*border-style: dashed;*/
+    background: #ff9a8e;
+    /*background-image: url(foto);*/
+    border-radius:10px; /*se metto 50% ho un cerchio*/
+}
